@@ -1,0 +1,788 @@
+<?xml version="1.0"?>
+<PresetXMLTree version="3">
+    <Preset Name="HUNXHO PRESET" GenericType="WSCR">
+        <PresetHeader>
+            <PluginName>StudioRack</PluginName>
+            <PluginSubComp>WRHS</PluginSubComp>
+            <PluginVersion>14.12.102.393</PluginVersion>
+            <ReadOnly>false</ReadOnly>
+        </PresetHeader>
+        <VST24SideChainActive>true</VST24SideChainActive>
+        <PresetData Setup="CURRENT">
+            <Parameters Type="RealWorld">
+0 0 * * * * * * * *
+* 0 10 546 436 0 0 0 0 0
+0 * * * * * * * * *
+* * * 0 * * * * * *
+* 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 * * * * *
+* * * * * * * * * *
+* 0 0 0 0 0 0 0 0 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 * * * * *
+* * * 0 * * * * 0 0
+0 1 * * 0 2 * 0 0 0
+* 0 * * * * * * * *
+* * 0 8 0 * 0 0 0 0
+0 0 0 0 * * * * 0 *
+* * * * * * * * * *
+* * * 0 * 0.5 * 0 0 0
+* * * 0 * * * 0 * 0
+* * 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+* * * * * * * * * *
+* * * * * * * * * *
+* * * * * * * * * *
+* * 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1
+* * * * * * * * * *
+* * * * * * 1 0 0 2
+1 1 0 0 0 0 0 0 0 0
+0 0 1 * * * * 0 * *
+0 0 0 0 0 0 0 0 0 0
+* * * 0 1 * 0 0 0 0
+0 * * 0 0 * * * </Parameters>
+            <PluginSpecificXMLData>
+                <selected_slot index="7" />
+                <gui_is_open />
+                <slot index="0">
+                    <SlotArtistInputs>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                    </SlotArtistInputs>
+                    <slot_data>
+                        <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="Full Reset" GenericType="QDYN">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>F6</PluginName>
+   <PluginSubComp>QDZS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT" SetupName="Full Reset">
+   <Parameters Type="RealWorld">
+3707.8699999999998909 1582.8199999999999363 372.37000000000000455 710.17999999999994998 2325.8499999999999091 7025.0100000000002183 169.38999999999998636 17500 17.399999999999998579 16.399999999999998579
+4.2000000000000001776 11.699999999999999289 13.800000000000000711 1 3 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 1
+4.5 4.5 4.5 4.5 4.5 4.5 5 5 -6.9000000000000003553 -7.2000000000000001776
+-5.4000000000000003553 -4.0999999999999996447 -16.300000000000000711 4.9000000000000003553 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0.5 0.5 0.5 0.5 0.5 0.5 0 0
+16 16 16 16 16 16 0 0 160 160
+160 160 160 160 160 160 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 * * * * * * 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1
+1 2 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+1 1 1 0 1 0 0 1 1 1
+1 1 1 1 1 0 0 0 0 0
+0 0 0 0 0 0 * * * *
+1 5 250 0.020000000000000000416 0 0.10000000000000000555 10 100 5 100
+-3.5 0 0 * 20 2.0480000000000000426 0 0 0 *
+0 0 5 0 * * * * * *
+0 0 0 0 -10.099999999999999645 244.09999999999999432 0.4000000000000000222 -149.5500108710564291 -400 0
+0 49 40 * * 0 1 1 6 10
+* * 1 1 256 1 0 0 255 255
+255 255 0 -60 21357.43999999999869 1 0 1 10 0
+1 0 1 0 60 1 0 2 1 2
+1 1 </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]></plugin_preset>
+                        <plugin_current_setup>setA</plugin_current_setup>
+                        <plugin_name>F6-RTA</plugin_name>
+                        <plugin_id>QDZS</plugin_id>
+                        <plugin_vendor>Waves</plugin_vendor>
+                        <plugin_bypass>false</plugin_bypass>
+                        <plugin_disabled>false</plugin_disabled>
+                        <plugin_side_chain>false</plugin_side_chain>
+                        <plugin_ignore_latency>false</plugin_ignore_latency>
+                    </slot_data>
+                    <slot_floating_window>
+                        <Docked>true</Docked>
+                        <IsShowing>false</IsShowing>
+                        <PosX>480</PosX>
+                        <PosY>110</PosY>
+                        <AlwaysOnTop>false</AlwaysOnTop>
+                    </slot_floating_window>
+                    <slot_recall_safe>false</slot_recall_safe>
+                    <PluginAutomationList>300 -1 1 301 7 3 304 14 2 306 18 3 309 25 2 311 31 13 324 47 13 337 63 13 350 79 13 363 95 13 376 111 14 390 127 2</PluginAutomationList>
+                </slot>
+                <slot index="1">
+                    <SlotArtistInputs>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                    </SlotArtistInputs>
+                    <slot_data>
+                        <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="" GenericType="VCMP">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>VComp</PluginName>
+   <PluginSubComp>NVCS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT">
+   <Parameters Type="RealWorld">
+6.5999999999999996447 -4.2000000000000001776 0 0 1 2 0 0 16 0
+3 1 2 3 0 * 0 * 100 998
+1502 0.25 0.2999999999999999889 * * * * * * *
+</Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]></plugin_preset>
+                        <plugin_current_setup>setA</plugin_current_setup>
+                        <plugin_name>VComp</plugin_name>
+                        <plugin_id>NVCS</plugin_id>
+                        <plugin_vendor>Waves</plugin_vendor>
+                        <plugin_bypass>false</plugin_bypass>
+                        <plugin_disabled>false</plugin_disabled>
+                        <plugin_side_chain>false</plugin_side_chain>
+                        <plugin_ignore_latency>false</plugin_ignore_latency>
+                    </slot_data>
+                    <slot_floating_window>
+                        <Docked>true</Docked>
+                        <IsShowing>false</IsShowing>
+                        <PosX>907</PosX>
+                        <PosY>247</PosY>
+                        <AlwaysOnTop>false</AlwaysOnTop>
+                    </slot_floating_window>
+                    <slot_recall_safe>false</slot_recall_safe>
+                    <PluginAutomationList>399 -1 4 403 6 1 404 11 2 406 30 1 407 33 1 408 38 2 410 45 1 411 50 1</PluginAutomationList>
+                </slot>
+                <slot index="2">
+                    <SlotArtistInputs>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                    </SlotArtistInputs>
+                    <slot_data>
+                        <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="" GenericType="SBLN">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>Sibilance</PluginName>
+   <PluginSubComp>SIBS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT">
+   <Parameters Type="RealWorld">
+* * * * * * * * * *
+0 0 0 -100 1.5 4.9900000000000002132 56 7008 0.17999999999999999334 0.2999999999999999889
+301 0.5 10 0 0 0.10000000000000000555 10 10 42 1.6000000000000000888
+0.2000000000000000111 50 0.4000000000000000222 1 1 -35.600000000000001421 -23.600000000000001421 5000 3 48
+0 -100 0 0 1 200 * </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]></plugin_preset>
+                        <plugin_current_setup>setA</plugin_current_setup>
+                        <plugin_name>Sibilance</plugin_name>
+                        <plugin_id>SIBS</plugin_id>
+                        <plugin_vendor>Waves</plugin_vendor>
+                        <plugin_bypass>false</plugin_bypass>
+                        <plugin_disabled>false</plugin_disabled>
+                        <plugin_side_chain>false</plugin_side_chain>
+                        <plugin_ignore_latency>false</plugin_ignore_latency>
+                    </slot_data>
+                    <slot_floating_window>
+                        <Docked>true</Docked>
+                        <IsShowing>false</IsShowing>
+                        <PosX>889</PosX>
+                        <PosY>270</PosY>
+                        <AlwaysOnTop>false</AlwaysOnTop>
+                    </slot_floating_window>
+                    <slot_recall_safe>false</slot_recall_safe>
+                    <PluginAutomationList>392 -1 7</PluginAutomationList>
+                </slot>
+                <slot index="3">
+                    <SlotArtistInputs>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                    </SlotArtistInputs>
+                    <slot_data>
+                        <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="" GenericType="CLVO">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>CLA Vocals</PluginName>
+   <PluginSubComp>CVOS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT">
+   <Parameters Type="RealWorld">
+0 0 0 0 0 * 1 42 -144 -20
+-12 -4 0 -144 -109.56000000000000227 -72 -34.429999999999999716 0 44 0
+0 0 0 0 0 0 0 0 0 *
+* * * * * * * 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 -4 2 1.3000000000000000444 2 3 2
+-3.7000000000000001776 0 -10 0 -4.0999999999999996447 2 0 </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]></plugin_preset>
+                        <plugin_current_setup>setA</plugin_current_setup>
+                        <plugin_name>CLA Vocals</plugin_name>
+                        <plugin_id>CVOS</plugin_id>
+                        <plugin_vendor>Waves</plugin_vendor>
+                        <plugin_bypass>false</plugin_bypass>
+                        <plugin_disabled>false</plugin_disabled>
+                        <plugin_side_chain>false</plugin_side_chain>
+                        <plugin_ignore_latency>false</plugin_ignore_latency>
+                    </slot_data>
+                    <slot_floating_window>
+                        <Docked>true</Docked>
+                        <IsShowing>false</IsShowing>
+                        <PosX>548</PosX>
+                        <PosY>172</PosY>
+                        <AlwaysOnTop>false</AlwaysOnTop>
+                    </slot_floating_window>
+                    <slot_recall_safe>false</slot_recall_safe>
+                    <PluginAutomationList>412 -1 4 416 6 2 418 11 2 420 16 2 422 21 2 424 26 2 426 31 2</PluginAutomationList>
+                </slot>
+                <slot index="4">
+                    <SlotArtistInputs>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                    </SlotArtistInputs>
+                    <slot_data>
+                        <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="" GenericType="RVOX">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>Renaissance Vox</PluginName>
+   <PluginSubComp>MXVS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT">
+   <Parameters Type="RealWorld">
+-4.7999999999999998224 -80 130 * * * * 0 * </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]></plugin_preset>
+                        <plugin_current_setup>setA</plugin_current_setup>
+                        <plugin_name>RVox</plugin_name>
+                        <plugin_id>MXVS</plugin_id>
+                        <plugin_vendor>Waves</plugin_vendor>
+                        <plugin_bypass>false</plugin_bypass>
+                        <plugin_disabled>false</plugin_disabled>
+                        <plugin_side_chain>false</plugin_side_chain>
+                        <plugin_ignore_latency>false</plugin_ignore_latency>
+                    </slot_data>
+                    <slot_floating_window>
+                        <Docked>true</Docked>
+                        <IsShowing>false</IsShowing>
+                        <PosX>774</PosX>
+                        <PosY>361</PosY>
+                        <AlwaysOnTop>false</AlwaysOnTop>
+                    </slot_floating_window>
+                    <slot_recall_safe>false</slot_recall_safe>
+                    <PluginAutomationList>428 -1 4</PluginAutomationList>
+                </slot>
+                <slot index="5">
+                    <SlotArtistInputs>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                    </SlotArtistInputs>
+                    <slot_data>
+                        <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="Full Reset" GenericType="QDYN">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>F6</PluginName>
+   <PluginSubComp>QDZS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT" SetupName="Full Reset">
+   <Parameters Type="RealWorld">
+660.24000000000000909 184.43999999999999773 437.80000000000001137 1344.5099999999999909 2867.5999999999999091 5039.680000000000291 19 17500 7 6.0999999999999996447
+8.5 12.599999999999999645 11.900000000000000355 18.800000000000000711 1 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 1 1
+4.5 4.5 4.5 4.5 4.5 4.5 5 5 -5.0999999999999996447 -3.2000000000000001776
+-6.9000000000000003553 -3.7000000000000001776 -3.8999999999999999112 -3.6000000000000000888 0 0 0 0 0 0
+0 -39.100000000000001421 0 0 0 0 0 0 0 -4.4000000000000003553
+0 0 0.5 0.5 0.5 0.5 0.5 0.5 0 0
+16 16 16 16 16 16 0 0 160 160
+160 160 160 160 160 160 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 * * * * * * 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1
+1 1 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+1 1 0 0 0 0 1 1 1 1
+1 1 1 1 0 0 0 0 0 0
+0 0 0 0 0 0 * * * *
+1 5 250 0.020000000000000000416 0 0.10000000000000000555 10 100 0 100
+-3.5 0 0 * 20 2.0480000000000000426 0 0 0 *
+0 0 5 0 * * * * * *
+0 0 0 0 -10.099999999999999645 244.09999999999999432 0.4000000000000000222 -152.07289883850251044 -400 0
+0 49 40 * * 0 1 1 6 10
+* * 1 1 256 1 0 0 255 255
+255 255 0 -60 21357.43999999999869 1 0 1 10 0
+1 0 1 0 60 1 0 2 1 2
+1 1 </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]></plugin_preset>
+                        <plugin_current_setup>setA</plugin_current_setup>
+                        <plugin_name>F6-RTA</plugin_name>
+                        <plugin_id>QDZS</plugin_id>
+                        <plugin_vendor>Waves</plugin_vendor>
+                        <plugin_bypass>false</plugin_bypass>
+                        <plugin_disabled>false</plugin_disabled>
+                        <plugin_side_chain>false</plugin_side_chain>
+                        <plugin_ignore_latency>false</plugin_ignore_latency>
+                    </slot_data>
+                    <slot_floating_window>
+                        <Docked>true</Docked>
+                        <IsShowing>false</IsShowing>
+                        <PosX>454</PosX>
+                        <PosY>100</PosY>
+                        <AlwaysOnTop>false</AlwaysOnTop>
+                    </slot_floating_window>
+                    <slot_recall_safe>false</slot_recall_safe>
+                    <PluginAutomationList>432 -1 1 433 7 3 436 14 2 438 18 3 441 25 2 443 31 13 456 47 13 469 63 13 482 79 13 495 95 13 508 111 14 522 127 2</PluginAutomationList>
+                </slot>
+                <slot index="7">
+                    <SlotArtistInputs>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                        <ArtistInput>-1 -1</ArtistInput>
+                    </SlotArtistInputs>
+                    <slot_data>
+                        <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="" GenericType="PRRC">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>ParallelRack</PluginName>
+   <PluginSubComp>PRRS</PluginSubComp>
+   <PluginVersion>14.12.102.393</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT">
+   <Parameters Type="RealWorld">
+0 0 * * * * * * * *
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 * 0 0 * 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 * 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 1 1 1 1 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 -9.8000000000000007105 -15.400000000000000355 0 0 0
+0 0 0 0 0 0 0 0 0 0
+92 546 3991 11050 92 92 92 92 * 3
+0 * * * * * * * * *
+* * * * * * * 0 0 0
+0 0 0 0 0 -45 -45 -45 -45 -45
+-45 -45 -45 45 45 45 45 45 45 45
+45 1 1 1 1 1 1 1 1 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 * 0
+* 0 36 48 60 72 36 36 36 36
+20 45 70 95 20 20 20 20 0 *
+* * * * * * * </Parameters>
+   <PluginSpecificXMLData>
+    <slot index="8">
+     <SlotArtistInputs>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+     </SlotArtistInputs>
+     <slot_PrivateDataMap>
+      <SideChainSource>
+       <SideChainSource>1</SideChainSource>
+      </SideChainSource>
+     </slot_PrivateDataMap>
+     <slot_data>
+      <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="Manny's Defaults" GenericType="MMDL">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>MannyM-Delay</PluginName>
+   <PluginSubComp>MMDS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT" SetupName="Manny's Defaults">
+   <Parameters Type="RealWorld">
+0 0 * * * * 10 1 1 *
+0 * 0 53 428.57142857142855519 13 0 1 35.100000000000001421 631
+5378 0 100 77.700000000000002842 48.700000000000002842 1 82.200000000000002842 50 0 0
+50 1 50 0 984 428.57142857142855519 13 1 16 16
+25.699999999999999289 1.0989999999999999769 0.34000000000000002442 8 0 1 </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]]]><![CDATA[></plugin_preset>
+      <plugin_current_setup>setA</plugin_current_setup>
+      <plugin_name>MannyM Delay</plugin_name>
+      <plugin_id>MMDS</plugin_id>
+      <plugin_vendor>Waves</plugin_vendor>
+      <plugin_bypass>false</plugin_bypass>
+      <plugin_disabled>false</plugin_disabled>
+      <plugin_side_chain>false</plugin_side_chain>
+      <plugin_ignore_latency>false</plugin_ignore_latency>
+     </slot_data>
+     <slot_floating_window>
+      <Docked>true</Docked>
+      <IsShowing>false</IsShowing>
+      <PosX>605</PosX>
+      <PosY>321</PosY>
+      <AlwaysOnTop>false</AlwaysOnTop>
+     </slot_floating_window>
+     <slot_recall_safe>false</slot_recall_safe>
+     <PluginAutomationList>300 -1 1 301 4 2 303 8 2 305 12 5 310 19 1 311 22 17 328 42 1</PluginAutomationList>
+    </slot>
+    <slot index="9">
+     <SlotArtistInputs>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+     </SlotArtistInputs>
+     <slot_PrivateDataMap>
+      <SideChainSource>
+       <SideChainSource>2</SideChainSource>
+      </SideChainSource>
+     </slot_PrivateDataMap>
+     <slot_data>
+      <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="" GenericType="ARCS">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>RComp</PluginName>
+   <PluginSubComp>URCS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT">
+   <Parameters Type="RealWorld">
+229.16999999999998749 -41 3.2000000000000001776 * * * * * 0.68000000000000004885 50
+56.229999999999996874 10 0 0 149.62000000000000455 120 0 0 1 0.4000000000000000222
+0 1.5 0 * * * 100 0 </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]]]><![CDATA[></plugin_preset>
+      <plugin_current_setup>setA</plugin_current_setup>
+      <plugin_name>RCompressor</plugin_name>
+      <plugin_id>URCS</plugin_id>
+      <plugin_vendor>Waves</plugin_vendor>
+      <plugin_bypass>false</plugin_bypass>
+      <plugin_disabled>false</plugin_disabled>
+      <plugin_side_chain>true</plugin_side_chain>
+      <plugin_ignore_latency>false</plugin_ignore_latency>
+     </slot_data>
+     <slot_floating_window>
+      <Docked>true</Docked>
+      <IsShowing>false</IsShowing>
+      <PosX>824</PosX>
+      <PosY>41</PosY>
+      <AlwaysOnTop>false</AlwaysOnTop>
+     </slot_floating_window>
+     <slot_recall_safe>false</slot_recall_safe>
+     <PluginAutomationList>329 -1 2 331 3 1 332 8 2 334 11 4 338 18 2</PluginAutomationList>
+    </slot>
+    <slot index="16">
+     <SlotArtistInputs>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+     </SlotArtistInputs>
+     <slot_PrivateDataMap>
+      <SideChainSource>
+       <SideChainSource>1</SideChainSource>
+      </SideChainSource>
+     </slot_PrivateDataMap>
+     <slot_data>
+      <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="Full Reset" GenericType="MMRV">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>MannyM-Reverb</PluginName>
+   <PluginSubComp>MMRS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT" SetupName="Full Reset">
+   <Parameters Type="RealWorld">
+0 0 * * * * * 10 0 0
+* 0 * 2 45 112 16 0 23.100000000000001421 0
+0 0 0 100 100 2 0.34000000000000002442 </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]]]><![CDATA[></plugin_preset>
+      <plugin_current_setup>setA</plugin_current_setup>
+      <plugin_name>MannyM Reverb</plugin_name>
+      <plugin_id>MMRS</plugin_id>
+      <plugin_vendor>Waves</plugin_vendor>
+      <plugin_bypass>false</plugin_bypass>
+      <plugin_disabled>false</plugin_disabled>
+      <plugin_side_chain>false</plugin_side_chain>
+      <plugin_ignore_latency>false</plugin_ignore_latency>
+     </slot_data>
+     <slot_floating_window>
+      <Docked>true</Docked>
+      <IsShowing>false</IsShowing>
+      <PosX>599</PosX>
+      <PosY>313</PosY>
+      <AlwaysOnTop>false</AlwaysOnTop>
+     </slot_floating_window>
+     <slot_recall_safe>false</slot_recall_safe>
+     <PluginAutomationList>340 -1 1 341 2 1 342 9 10</PluginAutomationList>
+    </slot>
+    <slot index="17">
+     <SlotArtistInputs>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+     </SlotArtistInputs>
+     <slot_PrivateDataMap>
+      <SideChainSource>
+       <SideChainSource>1</SideChainSource>
+      </SideChainSource>
+     </slot_PrivateDataMap>
+     <slot_data>
+      <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="Full Reset" GenericType="QDYN">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>F6</PluginName>
+   <PluginSubComp>QDZS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT" SetupName="Full Reset">
+   <Parameters Type="RealWorld">
+45 125 352.54000000000002046 1000 3112.8800000000001091 4416.5399999999999636 324.41000000000002501 9655.6000000000003638 1 1
+1 1 1 1 3 3 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+4.5 4.5 4.5 4.5 4.5 4.5 5 5 0 0
+0 0 2.3999999999999999112 -2.5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0.5 0.5 0.5 0.5 0.5 0.5 0 0
+16 16 16 16 16 16 0 0 160 160
+160 160 160 160 160 160 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 * * * * * * 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 1 1 1 1
+1 2 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+1 1 0 0 1 0 1 0 1 1
+1 1 1 1 1 1 0 0 0 0
+0 0 0 0 0 0 * * * *
+1 5 250 0.020000000000000000416 0 0.10000000000000000555 10 100 4 100
+-3.5 0 0 * 20 2.0480000000000000426 0 0 0 *
+0 0 5 0 * * * * * *
+0 0 0 0 -10.099999999999999645 244.09999999999999432 0.4000000000000000222 -140.60002335858231959 -400 0
+0 49 40 * * 0 1 1 6 10
+* * 1 1 256 1 0 0 255 255
+255 255 0 -60 21357.43999999999869 1 0 1 10 0
+1 0 1 0 60 1 0 2 1 2
+1 1 </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]]]><![CDATA[></plugin_preset>
+      <plugin_current_setup>setA</plugin_current_setup>
+      <plugin_name>F6-RTA</plugin_name>
+      <plugin_id>QDZS</plugin_id>
+      <plugin_vendor>Waves</plugin_vendor>
+      <plugin_bypass>false</plugin_bypass>
+      <plugin_disabled>false</plugin_disabled>
+      <plugin_side_chain>false</plugin_side_chain>
+      <plugin_ignore_latency>false</plugin_ignore_latency>
+     </slot_data>
+     <slot_floating_window>
+      <Docked>true</Docked>
+      <IsShowing>false</IsShowing>
+      <PosX>594</PosX>
+      <PosY>127</PosY>
+      <AlwaysOnTop>false</AlwaysOnTop>
+     </slot_floating_window>
+     <slot_recall_safe>false</slot_recall_safe>
+     <PluginAutomationList>359 -1 1 360 7 3 363 14 2 365 18 3 368 25 2 370 31 13 383 47 13 396 63 13 409 79 13 422 95 13 435 111 14 449 127 2</PluginAutomationList>
+    </slot>
+    <slot index="18">
+     <SlotArtistInputs>
+      <ArtistInput>-1 -1</ArtistInput>
+      <ArtistInput>-1 -1</ArtistInput>
+     </SlotArtistInputs>
+     <slot_PrivateDataMap>
+      <SideChainSource>
+       <SideChainSource>1</SideChainSource>
+      </SideChainSource>
+     </slot_PrivateDataMap>
+     <slot_data>
+      <plugin_preset><![CDATA[<PresetChunkXMLTree version="3">
+ <Preset Name="" GenericType="CNTR">
+  <PresetHeader>
+   <Group></Group>
+   <PluginName>Center</PluginName>
+   <PluginSubComp>CNTS</PluginSubComp>
+   <PluginVersion>14.12.90.381</PluginVersion>
+   <ReadOnly>false</ReadOnly>
+  </PresetHeader>
+  <PresetData Setup="CURRENT">
+   <Parameters Type="RealWorld">
+* * * * 0.5999999999999999778 10 1 99.950204883401923439 -48 50
+50 -2.2000000000000001776 3.6000000000000000888 1 1 0 0 100 0 0
+80 249 3532 7499 50 50 100 100 80 1
+1 1 1 1 1 1 1 1 1 50
+* * </Parameters>
+   <PluginSpecificXMLData />
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]]]><![CDATA[></plugin_preset>
+      <plugin_current_setup>setA</plugin_current_setup>
+      <plugin_name>Center</plugin_name>
+      <plugin_id>CNTS</plugin_id>
+      <plugin_vendor>Waves</plugin_vendor>
+      <plugin_bypass>false</plugin_bypass>
+      <plugin_disabled>false</plugin_disabled>
+      <plugin_side_chain>false</plugin_side_chain>
+      <plugin_ignore_latency>false</plugin_ignore_latency>
+     </slot_data>
+     <slot_floating_window>
+      <Docked>true</Docked>
+      <IsShowing>false</IsShowing>
+      <PosX>1022</PosX>
+      <PosY>231</PosY>
+      <AlwaysOnTop>false</AlwaysOnTop>
+     </slot_floating_window>
+     <slot_recall_safe>false</slot_recall_safe>
+     <PluginAutomationList>352 -1 7</PluginAutomationList>
+    </slot>
+    <QuickKeysListNew>
+     <QuickKey Index="0">
+      <ControlId Index="31">
+       <minRange>0</minRange>
+       <maxRange>1000</maxRange>
+       <minRangeOriginal>0</minRangeOriginal>
+       <maxRangeOriginal>1000</maxRangeOriginal>
+       <minEffectiveRange>0</minEffectiveRange>
+       <maxEffectiveRange>1000</maxEffectiveRange>
+       <controlName>Rack 2 Output</controlName>
+       <controlRanges>
+        <states>0 1000</states>
+        <points>0 1000</points>
+       </controlRanges>
+      </ControlId>
+     </QuickKey>
+     <QuickKey Index="1">
+      <ControlId Index="46">
+       <minRange>0</minRange>
+       <maxRange>1000</maxRange>
+       <minRangeOriginal>0</minRangeOriginal>
+       <maxRangeOriginal>1000</maxRangeOriginal>
+       <minEffectiveRange>0</minEffectiveRange>
+       <maxEffectiveRange>1000</maxEffectiveRange>
+       <controlName>Rack 3 Output</controlName>
+       <controlRanges>
+        <states>0 1000</states>
+        <points>0 1000</points>
+       </controlRanges>
+      </ControlId>
+     </QuickKey>
+    </QuickKeysListNew>
+   </PluginSpecificXMLData>
+  </PresetData>
+ </Preset>
+</PresetChunkXMLTree>
+]]></plugin_preset>
+                        <plugin_current_setup>setA</plugin_current_setup>
+                        <plugin_name>Parallel Split</plugin_name>
+                        <plugin_id>PRRS</plugin_id>
+                        <plugin_vendor>Waves</plugin_vendor>
+                        <plugin_bypass>false</plugin_bypass>
+                        <plugin_disabled>false</plugin_disabled>
+                        <plugin_side_chain>true</plugin_side_chain>
+                        <plugin_ignore_latency>false</plugin_ignore_latency>
+                    </slot_data>
+                    <slot_floating_window>
+                        <Docked>true</Docked>
+                        <IsShowing>true</IsShowing>
+                        <PosX>0</PosX>
+                        <PosY>0</PosY>
+                        <AlwaysOnTop>false</AlwaysOnTop>
+                    </slot_floating_window>
+                    <slot_recall_safe>false</slot_recall_safe>
+                    <PluginAutomationList>524 -1 1 525 3 1 526 5 2 528 9 3 531 13 6 537 20 2 539 24 3 542 28 6 548 35 2 550 39 3 553 43 6 559 50 2 561 54 3 564 58 6 570 65 2 572 69 3 575 73 6 581 80 2 583 84 3 586 88 6 592 95 2 594 99 3 597 103 6 603 110 2 605 114 3 608 118 5 613 300 29 642 329 11 653 340 12 665 352 7 672 359 92</PluginAutomationList>
+                </slot>
+                <QuickKeysNamesList>
+                    <QuickKey Index="0">
+                        <MacroName>DELAY</MacroName>
+                    </QuickKey>
+                    <QuickKey Index="1">
+                        <MacroName>REVERB</MacroName>
+                    </QuickKey>
+                </QuickKeysNamesList>
+            </PluginSpecificXMLData>
+        </PresetData>
+    </Preset>
+</PresetXMLTree>
