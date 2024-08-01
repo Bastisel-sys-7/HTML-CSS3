@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead , tfoot {
+            background-color: #383838;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+        tbody > tr:nth-child(2n) { /* 2n-1, odd=impar, even=par */
+            background-color: lightgray;
+        }
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+<!-- 
+    ANATOMIA PARA TABELAS GRANDES 
+    TABLE
+        CAPTION
+        THEAD 
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+-->
+<table>
+    <caption> População das Unidades Federativas</caption>
+    <thead>
+        <tr>
+            <th scope="col">Posição</th>
+            <th scope="col">Localidade</th>
+            <th scope="col">Província</th>
+            <th scope="col" style="width: 50px;">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Luanda</td>
+            <td>Luanda</td>
+            <td class="num">2.776.125</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Huambo</td>
+            <td>Huambo</td>
+            <td class="num">1.204.000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Benguela</td>
+            <td>Lobito</td>
+            <td class="num">805.000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Benguela</td>
+            <td>Benguela</td>
+            <td class="num">513.000</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Lubango</td>
+            <td>Huíla</td>
+            <td class="num">318.000</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Lucapa</td>
+            <td>Lunda Norte</td>
+            <td class="num">125.751</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Cuíto</td>
+            <td>Bié</td>
+            <td class="num">113.624</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Malanje</td>
+            <td>Malanje</td>
+            <td class="num">87.047</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Moçâmedes</td>
+            <td>Namibe</td>
+            <td class="num">80.150</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Soyo</td>
+            <td>Zaire</td>
+            <td class="num">67.553</td>
+        </tr>
+
+        <tr>
+            <td>11</td>
+            <td>Cabinda</td>
+            <td>Cabinda</td>
+            <td class="num">66.020</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Uíge</td>
+            <td>Uíge</td>
+            <td class="num">60.008</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Namibe</td>
+            <td>Tômbua</td>
+            <td class="num">54.657</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Lunda Sul</td>
+            <td>Saurimo</td>
+            <td class="num">40.198</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>Cuanza Sul</td>
+            <td>Sumbe</td>
+            <td class="num">33.278</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>Huíla</td>
+            <td>Caluquembe</td>
+            <td class="num">30.305</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>Cuanza Sul</td>
+            <td>Gabela</td>
+            <td class="num">29.151</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Bengo</td>
+            <td>Caxito</td>
+            <td class="num">28.229</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>Huambo</td>
+            <td>Longonjo</td>
+            <td class="num">24.350</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>Zaire</td>
+            <td>Mabanza Congo</td>
+            <td class="num">24.220</td>
+        </tr>
+
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row" colspan="3">Total de Habitantes</th>
+            
+            <td class="num"><strong>6.480.666</strong></td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
